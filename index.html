@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuku Kompanion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="screen splash">
+    <img src="chick-logo-white.png" alt="Kuku Logo" class="logo">
+    <h1>Kuku Kompanion</h1>
+    <p>Your personalized audio buddy is ready to help.</p>
+    <button onclick="nextScreen()">Get Started</button>
+  </div>
+
+  <div class="screen onboarding hidden">
+    <h2>🎧 Smart Listening</h2>
+    <p>Discover audio that adapts to you.</p>
+    <button onclick="nextScreen()">Next</button>
+  </div>
+
+  <div class="screen home hidden">
+    <h2>Welcome Back 👋</h2>
+    <p>Play, explore, and ask anything.</p>
+    <button onclick="nextScreen()">Talk to Kompanion</button>
+  </div>
+
+  <div class="screen interaction hidden">
+    <h2>Ask me anything 📢</h2>
+    <p>“Play a 5-min motivational story.”</p>
+    <button>🎙 Start Talking</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
